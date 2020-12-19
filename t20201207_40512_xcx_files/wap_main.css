@@ -1,0 +1,430 @@
+body {
+  width: 7.5rem;
+  margin: 0 auto;
+  min-width: 0;
+}
+.wap_header {
+  position: relative;
+  height: 0.93rem;
+  line-height: 0.93rem;
+  border-bottom: 0.01rem solid #e6e6e6;
+}
+.wap_header .p1 {
+  width: 0.18rem;
+  height: 0.32rem;
+  margin-left: 0.24rem;
+  vertical-align: middle;
+}
+.wap_header .p2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 3.06rem;
+  height: 0.48rem;
+}
+.wap_title h1 {
+  font-size: 0.4rem;
+  margin-top: 0.41rem;
+  margin-left: 0.2rem;
+}
+.wap_resource {
+  height: 1.06rem;
+  line-height: 1.06rem;
+}
+.wap_resource img {
+  width: 0.25rem;
+  height: 0.25rem;
+  float: left;
+  margin-left: 0.25rem;
+  margin-right: 0.12rem;
+  margin-top: 0.41rem;
+}
+.wap_resource .p2 {
+  font-size: 0.24rem;
+  color: #999999;
+  float: left;
+  margin-left: 0.52rem;
+}
+.wap_resource .p1 {
+  font-size: 0.24rem;
+  color: #999999;
+  float: left;
+}
+.wap_content {
+  font-size: 0.34rem;
+  color: #333333;
+}
+.wap_content .p1 {
+  text-align: justify;
+  margin-top: 0.41rem;
+  line-height: 0.56rem;
+  padding-left: 0.27rem;
+  padding-right: 0.27rem;
+}
+.wap_content .p2 {
+  text-align: justify;
+  margin-top: 0.41rem;
+  line-height: 0.56rem;
+  padding-left: 0.27rem;
+  padding-right: 0.27rem;
+  margin-bottom: 0.96rem;
+}
+.wap_content img {
+  max-width: 100%;
+}
+.wap_end {
+  margin-bottom: 0.9rem;
+  padding-right: 0.22rem;
+  /*     .p1{
+        margin-left: 3.75rem;
+    }
+    .p2{
+        margin-left: 0.6rem;
+    }
+    .p3{
+        margin-left: 0.6rem;
+    } */
+}
+.wap_end p {
+  float: left;
+  font-size: 0.22rem;
+  color: #999999;
+  padding-left: 0.27rem;
+}
+.wap_end .wap_click {
+  padding-left: 4.87rem;
+}
+.wap_end .wap_click a {
+  display: inline-block;
+}
+.wap_end .wap_click img {
+  width: 0.3rem;
+  height: 0.3rem;
+  vertical-align: middle;
+}
+.wap_end .wap_click .p2 {
+  margin-left: 0.6rem;
+}
+.wap_end .wap_click .p3 {
+  margin-left: 0.6rem;
+}
+.wapxxtitle {
+  margin-top: 0.41rem;
+}
+.wapxxtitle h1 {
+  font-size: 0.42rem;
+  line-height: 0.6rem;
+  text-align: center;
+  color: #333333;
+}
+.wapxxsource {
+  overflow: hidden;
+  padding-top: 0.5rem;
+  padding-left: 0.27rem;
+  font-size: 0.24rem;
+  color: #999999;
+}
+.wapxxsource .p1 {
+  margin-right: 0.43rem;
+}
+.wapxxtable {
+  width: 7.02rem;
+  margin: auto;
+  margin-top: 0.42rem;
+  border: 0.01rem solid #e5e0e0;
+  border-radius: 0.08rem;
+}
+.wapxxtable .tableitem {
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.01rem solid #e5e0e0;
+  display: flex;
+  /*         p{
+            display: inline-block;
+        } */
+}
+.wapxxtable .tableitem .p1 {
+  width: 1.2rem;
+  text-align-last: justify;
+  font-size: 0.28rem;
+  font-weight: 700;
+  margin-left: 0.24rem;
+  margin-right: 0.5rem;
+}
+.wapxxtable .tableitem .p2 {
+  width: 4.65rem;
+  font-size: 0.24rem;
+  color: #666666;
+}
+.wapxxconten {
+  margin-top: 0.61rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-size: 0.32rem;
+  line-height: 0.5rem;
+}
+.wapxxconten p {
+  text-align: justify;
+  text-indent: 2em;
+}
+.wapxxconten .title {
+  font-weight: 700;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.wapxxconten p:last-of-type {
+  margin-bottom: 0.96rem;
+}
+.wap_xjheader {
+  height: 0.93rem;
+  background-color: #137ede;
+  line-height: 0.93rem;
+  position: relative;
+}
+.wap_xjheader a {
+  position: absolute;
+  margin-left: 0.24rem;
+}
+.wap_xjheader .post {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.36rem;
+  color: #ffffff;
+}
+.wap_xjheader img {
+  width: 0.18rem;
+  height: 0.32rem;
+}
+.wap_xjbg {
+  height: 2.28rem;
+  background: linear-gradient(to bottom, #137ede, #ffffff);
+}
+/* .wap_xjqs{
+    padding-bottom: 0.21rem;
+    width: 7.04rem;
+    position: relative;
+    left: 50%;
+    top: 0.45rem;
+    transform: translateX(-50%);
+    padding-left: 0.44rem;
+    padding-right: 0.44rem;
+    padding-top: 0.5rem;
+    border-radius: 0.12rem;
+    box-shadow: 0 0.1rem 0.39rem -0.14rem #bfdbf4;
+    font-size: 0.36rem;
+    font-family: PingFang-SC-Bold;
+    color: #137ede;
+    background-color: #ffffff;
+    .wap_btn{
+        width: 1.11rem;
+        height: 0.45rem;
+        margin-top: 0.4rem;
+        border-radius: 0.22rem;
+        font-size: 0.26rem;
+        color: #ffffff;
+        text-align: center;
+        line-height: 0.45rem;
+        background-color: #11c9b1;
+    }
+} */
+.wap_xjqs {
+  margin: auto;
+  padding-left: 0.44rem;
+  padding-right: 0.44rem;
+  padding-top: 0.5rem;
+  margin-top: -2.24rem;
+  border-radius: 0.12rem;
+  box-shadow: 0 0.1rem 0.39rem -0.14rem #bfdbf4;
+  padding-bottom: 0.21rem;
+  width: 7.04rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.36rem;
+  line-height: 0.6rem;
+  letter-spacing: 0rem;
+  color: #137ede;
+  background-color: #ffffff;
+}
+.wap_xjqs .wap_btn {
+  width: 1.11rem;
+  height: 0.45rem;
+  margin-top: 0.4rem;
+  border-radius: 0.22rem;
+  font-size: 0.26rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0.45rem;
+  background-color: #11c9b1;
+}
+.wap_xjcontent {
+  position: relative;
+  padding-bottom: 0.33rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  line-height: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding-left: 0.36rem;
+  padding-right: 0.36rem;
+  padding-top: 0.98rem;
+  font-size: 0.28rem;
+  color: #333333;
+  background-color: #f4f7fc;
+}
+.wap_xjcontent .wap_question {
+  position: absolute;
+  top: -0.16rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0.71rem;
+  width: 1.46rem;
+  height: 0.71rem;
+  background-image: url(../images/wap_question.png);
+  background-repeat: no-repeat;
+  background-size: 1.46rem 0.71rem;
+}
+.wap_xjcontent .p1 {
+  text-indent: 2em;
+}
+.wap_xjcontent .wap_xjtime {
+  line-height: 0.5rem;
+  font-size: 0.2rem;
+  color: #666666;
+}
+.wap_xjcontent2 {
+  position: relative;
+  padding-top: 0.98rem;
+  padding-bottom: 0.33rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  line-height: 0.5rem;
+  margin-top: 0.54rem;
+  margin-bottom: 0.4rem;
+  padding-left: 0.36rem;
+  padding-right: 0.36rem;
+  font-size: 0.28rem;
+  color: #333333;
+  background-color: #f4f7fc;
+}
+.wap_xjcontent2 .wap_answer {
+  position: absolute;
+  top: -0.16rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0.71rem;
+  width: 1.46rem;
+  height: 0.71rem;
+  background-image: url(../images/wap_ans.png);
+  background-repeat: no-repeat;
+  background-size: 1.46rem 0.71rem;
+}
+.wap_xjcontent2 .p1 {
+  text-indent: 2em;
+}
+.wap_xjcontent2 .pic {
+  width: 1.46rem;
+  height: 0.71rem;
+  position: relative;
+  top: -0.19rem;
+  left: -0.1rem;
+}
+.wap_xjcontent2 .wap_xjtime2 {
+  line-height: 0.5rem;
+  font-size: 0.2rem;
+  color: #666666;
+}
+.wap_xjcontent2 .wap_xjtime2 .p1 {
+  margin-left: 1.44rem;
+}
+.wap_ldheader {
+  height: 0.93rem;
+  border-bottom: 0.01rem solid #e6e6e6;
+  background-color: #ffffff;
+  line-height: 0.93rem;
+  position: relative;
+}
+.wap_ldheader img {
+  width: 0.18rem;
+  height: 0.32rem;
+}
+.wap_ldheader a {
+  position: absolute;
+  margin-left: 0.24rem;
+}
+.wap_ldheader .post {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.36rem;
+  color: #137ede;
+}
+.wap_ldphoto {
+  position: relative;
+  width: 7.5rem;
+  height: 4.67rem;
+}
+.wap_ldphoto .wap_sz {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.wap_ldphoto .wap_sz img {
+  width: 2rem;
+  height: 2.8rem;
+}
+.wap_ldphoto .wap_sz h1 {
+  font-size: 0.44rem;
+  color: #000000;
+}
+.wap_ldphoto .wap_sz p {
+  font-size: 0.3rem;
+  color: #8a8f90;
+}
+.wap_ldtab {
+  width: 7.03rem;
+  margin: auto;
+  padding-left: 0.22rem;
+  padding-top: 0.34rem;
+  padding-bottom: 0.64rem;
+  font-size: 0.28rem;
+  border: 0.01rem solid #e5e0e0;
+}
+.wap_ldtab label {
+  margin-left: 0.56rem;
+  line-height: 0.36rem;
+  color: #333333;
+}
+.wap_ldtab p {
+  color: #137ede;
+  margin-bottom: 0.3rem;
+}
+.wap_ldtab2 {
+  width: 7.03rem;
+  margin: auto;
+  line-height: 0.58rem;
+  margin-bottom: 1.02rem;
+  padding-left: 0.22rem;
+  padding-right: 0.22rem;
+  padding-top: 0.32rem;
+  padding-bottom: 0.47rem;
+  font-size: 0.28rem;
+  border: 0.01rem solid #e5e0e0;
+  border-top: none;
+}
+.wap_ldtab2 .p1 {
+  color: #000000;
+  text-indent: 2em;
+}
+.wap_ldtab2 p:first-child {
+  margin-top: 0.3rem;
+}
+.wap_ldtab2::before {
+  content: '个人简历';
+  font-size: 0.28rem;
+  color: #137ede;
+}
+

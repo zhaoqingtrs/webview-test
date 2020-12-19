@@ -1,0 +1,394 @@
+@charset "UTF-8";
+
+/*
+ * @Description: css重置样式
+ * @Date: 2020-03-19 10:21:53
+ * @version：v1.0
+ */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:focus {
+    outline: none;
+    border: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+input,
+button {
+    vertical-align: middle;
+    border: none;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+input,
+textarea {
+    box-sizing: content-box;
+    background: 0 0;
+    font-family: "Microsoft YaHei";
+}
+
+input {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #acacac;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #acacac;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #acacac;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #acacac;
+}
+
+.rt {
+    float: right;
+}
+
+.lf {
+    float: left;
+}
+
+body {
+    color: #333;
+    font-family: "Microsoft YaHei";
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+table tr td,
+table {
+    border-collapse: collapse;
+}
+
+
+/*清除浮动*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/****************************************动画****************************************/
+
+
+/* 鼠标经过图片放大 */
+
+.act-big a {
+    overflow: hidden;
+}
+
+.act-big a img {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.act-big a:hover img {
+    -webkit-transform: translate3d(0, 0, 0) scale(1.05);
+    -moz-transform: translate3d(0, 0, 0) scale(1.05);
+    -ms-transform: translate3d(0, 0, 0) scale(1.05);
+    -o-transform: translate3d(0, 0, 0) scale(1.05);
+    transform: translate3d(0, 0, 0) scale(1.05);
+}
+
+
+/* 鼠标经过抖动动画 */
+
+.act-rotate a:hover img {
+    animation: myrotate 0.5s;
+    -moz-animation: myrotate 0.5s;
+    -webkit-animation: myrotate 0.5s;
+    -o-animation: myrotate 0.5s;
+}
+
+@keyframes myrotate {
+    0% {
+        transform: rotate(10deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* Firefox */
+
+@-moz-keyframes myrotate {
+    0% {
+        transform: rotate(10deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* Safari 和 Chrome */
+
+@-webkit-keyframes myrotate {
+    0% {
+        transform: rotate(10deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* Opera */
+
+@-o-keyframes myrotate {
+    0% {
+        transform: rotate(10deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/*图片hover 透明度*/
+
+.act-imgop a:hover img {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+
+/****************************************功能类****************************************/
+
+.f-otw {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.f-oh {
+    overflow: hidden;
+}
+
+.f-oh2 {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.f-csp {
+    cursor: pointer;
+}
+
+.f-csd {
+    cursor: default;
+}
+
+.f-csh {
+    cursor: help;
+}
+
+.f-csm {
+    cursor: move;
+}
+
+.f-csna {
+    cursor: not-allowed;
+}
+
+.f-ib {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.f-dn {
+    display: none;
+}
+
+.f-db {
+    display: block;
+}
+
+.f-df {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.f-tdu,
+.f-tdu:hover {
+    text-decoration: underline;
+}
+
+.f-pr {
+    position: relative;
+}
+
+.f-fwn {
+    font-weight: normal;
+}
+
+.f-fwb {
+    font-weight: bold;
+}
+
+.f-tal {
+    text-align: left;
+}
+
+.f-tac {
+    text-align: center;
+}
+
+.f-tar {
+    text-align: right;
+}
+
+.f-mcen {
+    margin: 0 auto;
+}
+
+.f-mt10 {
+    margin-top: 10px;
+}
+
+.f-mt15 {
+    margin-top: 15px;
+}
+
+.f-mt20 {
+    margin-top: 20px;
+}
+
+.f-mt50 {
+    margin-top: 50px;
+}
+
+.f-plr10 {
+    padding: 0 10px;
+}
+
+.f-plr15 {
+    padding: 0 15px;
+}
